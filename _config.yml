@@ -55,17 +55,17 @@ codeforces_username: Utk__03
 about_profile_image: images/utk_new.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Utkarsh, B.Tech Computer Science Engineering Student. Have good coding skills in Golang,Node js and Java. A passionate professional with great interpersonal and communication skills.
-  Key Skills:
-  1. Go
-  2. Java
-  3. NodeJs
-  4. React
-  5. C++
-  6. Git 
-  7. Data Structure and Algorithms
-  8. Jira
-  9. MongoDB
-  10. MySQL
+  Key Skills: 
+  * Go
+  * Java
+  * NodeJs
+  * React
+  * C++
+  * Git 
+  * Data Structure and Algorithms
+  * Jira
+  * MongoDB
+  * MySQL
 
 content:
   - title: Projects # Title for the section
