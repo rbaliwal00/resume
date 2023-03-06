@@ -31,7 +31,7 @@ linkedin_username: utkarsh-saxena-5a9034201
 # Additional icon links
 additional_links:
   - title: leetcode
-    icon: fa-solid fa-rectangle-terminal
+    icon: fab fa-rectangle-terminal
     url: https://leetcode.com/usutk/
   - title: codechef
     url: https://www.codechef.com/users/utk_2003
@@ -49,7 +49,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/utk_new.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Utkarsh, B.Tech Computer Science Engineering Student. Have good coding skills in Golang,Node js and Java. A passionate professional with great interpersonal and communication skills.
 
@@ -62,11 +62,12 @@ content:
         link: https://github.com/UtkarshSaxenautk/Chat_Room
         description: | # this will include new lines to allow paragraphs
           Simple Chat room application built using NodeJS and ReactJS with socket io and mongoDB as database.
+          Having functionality of creating new rooms and joining rooms with user login and signup feature.
       - layout: top-middle
         title: Auth Service
         link: https://github.com/UtkarshSaxenautk/GoAuthService
         description: | # this will include new lines to allow paragraphs
-          Authentication Ms using Golang and Grid to send email
+          Authentication Microservice with exposed api to be used as pkg to use authentication service and using sendGrid Api to send mails.
       - layout: top-middle
         title: Electric Bill Optimizer
         link: https://github.com/UtkarshSaxenautk/Electric-Bill-Optimizer-HTM3.0
@@ -90,40 +91,45 @@ content:
         caption: August 2022 - Present
         description: | # this will include new lines to allow paragraphs
           * Writing Microservices in Golang for RabbitLoader(https://rabbitloader.com/)
+          * Api making in Golang
+          * Unit testing 
+          * Docker images and compose files
       - layout: left
         title: Wizwack
-        link: https://mymandap.in/
+        link: https://wizwack.in/
         # link_text: boringcompany.com
-        sub_title: Software Engineer Intern
-        caption: August 2022 - Present
+        sub_title: Full Stack Developer Intern
+        caption: May 2022 - August 2022
         description: | # this will include new lines to allow paragraphs
-          * Writing Microservices in Golang for RabbitLoader(https://rabbitloader.com/)
+          * Writing features for StarHunt Game on : Wizwack(https://wizwack.in/)
+          * Bug fixing 
+          * Working on payment service(Cashfree Sdk)
+          * APi making and bulk testing
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: I.K. Gujral Punjab Technical University
+        caption: 2020 - 2024
+        sub_title: Bachelor of Technology(Computer Science Engineering)
+
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Average grade: 8.86
+      - layout: left
+        title: St. Xavier's Senior Secondary School
+        caption: 2018-2020
+        sub_title: 10+2(XII)
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
+        description: | # this will include new lines to allow paragraphs
+          Percentage : 95.65
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - Gaming(Cricket)
+      - Exploring Animals Life
+      - Music Production
 
 # Footer
 footer_show_references: true
