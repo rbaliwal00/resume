@@ -31,6 +31,7 @@ linkedin_username: utkarsh-saxena-5a9034201
 # Additional icon links
 additional_links:
   - title: leetcode
+    icon: fa-solid fa-rectangle-terminal
     url: https://leetcode.com/usutk/
   - title: codechef
     url: https://www.codechef.com/users/utk_2003
@@ -136,4 +137,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
