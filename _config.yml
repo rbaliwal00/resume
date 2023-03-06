@@ -6,34 +6,36 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Utkarsh Saxena
+title: Software Engineer
+email: utkarshsaxena2012@gmail.com
+website: https://github.com/UtkarshSaxenautk
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
+github_username: UtkarshSaxenautk
+stackoverflow_username: "19090939"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username:
+linkedin_username: utkarsh-saxena-5a9034201
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  - title: leetcode
+    url: https://leetcode.com/usutk/
+  - title: codechef
+    url: https://www.codechef.com/users/utk_2003
+  - title: codeforces
+    url: https://codeforces.com/profile/Utk__03
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,43 +50,53 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hi, my name's Utkarsh, B.Tech Computer Science Engineering Student. Have good coding skills in Golang,Node js and Java. A passionate professional with great interpersonal and communication skills.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        title: Chat Room
+        link: https://github.com/UtkarshSaxenautk/Chat_Room
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Simple Chat room application built using NodeJS and ReactJS with socket io and mongoDB as database.
+      - layout: top-middle
+        title: Auth Service
+        link: https://github.com/UtkarshSaxenautk/GoAuthService
+        description: | # this will include new lines to allow paragraphs
+          Authentication Ms using Golang and Grid to send email
+      - layout: top-middle
+        title: Electric Bill Optimizer
+        link: https://github.com/UtkarshSaxenautk/Electric-Bill-Optimizer-HTM3.0
+        description: | # this will include new lines to allow paragraphs
+          A Mern based web app for optimizing your monthly bill according to expected bill and practical bill with twilio integration for notifications and hourly alerts.
+      - layout: top-middle
+        title: Hotel Booking Site
+        link: https://github.com/UtkarshSaxenautk/Booking-Site
+        description: | # this will include new lines to allow paragraphs
+          A Modern Web app based on golang and its templates to book hotels and rooms according to location using PostgreSQL database
+                                      with mailing functionality.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: myMandap
+        link: https://mymandap.in/
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Software Engineer Intern
+        caption: August 2022 - Present
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          * Writing Microservices in Golang for RabbitLoader(https://rabbitloader.com/)
+      - layout: left
+        title: Wizwack
+        link: https://mymandap.in/
+        # link_text: boringcompany.com
+        sub_title: Software Engineer Intern
+        caption: August 2022 - Present
+        description: | # this will include new lines to allow paragraphs
+          * Writing Microservices in Golang for RabbitLoader(https://rabbitloader.com/)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
