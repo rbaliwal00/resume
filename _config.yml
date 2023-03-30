@@ -87,18 +87,18 @@ content:
         description: | # this will include new lines to allow paragraphs
           Task Management Application built with SpringBoot and React. Having funcationality Authentication, Authorization,
           CRUD operations on taks.
-        - layout: top-middle
+      - layout: top-middle
         title: Electric Bill Optimizer
         link: https://github.com/rbaliwal00/electricbilloptimizer
         description: | # this will include new lines to allow paragraphs
           A Mern based web app for optimizing your monthly bill according to expected bill and practical bill with twilio integration for notifications and hourly alerts.
-        - layout: top-middle
+      - layout: top-middle
         title: Ticketing
         link: https://github.com/rbaliwal00/ticketing
         description: | # this will include new lines to allow paragraphs
           Ticket booking microservice application where people can buy and sell tickets and is built using React, Node, Express,
           Mongo, Redis, Docker, Kubernetes and Nats.
-        - layout: top-middle
+      - layout: top-middle
         title: Muzik
         link: https://github.com/rbaliwal00/muzik
         description: | # this will include new lines to allow paragraphs
