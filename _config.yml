@@ -81,7 +81,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Advertisement posting website where people can buy and sell stuff built using NodeJs and ReactJs.
           Having functionality of google maps and uploading multiple images with preview for an advertisement.
-        - layout: top-middle
+      - layout: top-middle
         title: Task Planner
         link: https://github.com/rbaliwal00/fullstack-taskplanner
         description: | # this will include new lines to allow paragraphs
