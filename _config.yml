@@ -43,7 +43,7 @@ leetcode_username: rbaliwal00
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, I am a Software Engineering Student, currently studying at Punjab Technical University. 
   I have good skills in React, Node and Java. A passionate professional with great interpersonal and communication skills.
@@ -85,7 +85,7 @@ content:
         title: Task Planner
         link: https://github.com/rbaliwal00/fullstack-taskplanner
         description: | # this will include new lines to allow paragraphs
-          Task Management Application built with SpringBoot and React. Having funcationality Authentication, Authorization,
+          Task Management Application built with SpringBoot and React. Having funcationality of Authentication, Authorization,
           CRUD operations on taks.
       - layout: top-middle
         title: Electric Bill Optimizer
@@ -107,7 +107,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Smartle
         sub_title: Full Stack Developer
         caption: February 2022 - September 2022
