@@ -1,47 +1,38 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 
-# Content configuration version
 version: 2
 
 # Personal info
-name: Utkarsh Saxena
+name: Rajan Baliwal
 title: Software Engineer
-email: utkarshsaxena2012@gmail.com
-website: https://main--utkarshsaxena.netlify.app/
+email: rajan18baliwal@gmail.com
+website: https://www.rajanbaliwal.me/
+
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-github_username: UtkarshSaxenautk
-stackoverflow_username: "19090939"
+github_username:  rbaliwal00
+stackoverflow_username: "7170799"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username:
-linkedin_username: utkarsh-saxena-5a9034201
+instagram_username: rajanbaliwal
+linkedin_username: rajan-baliwal-8b6a5ab2
 # xing_username: jekyll
 # pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
+# youtube_username: jekyll
 # orcid_username: 0000-0000-0000-0000
-leetcode_username: usutk
-codechef_username: utk_2003
-codeforces_username: Utk__03
+leetcode_username: rbaliwal00
 
 # Additional icon links
 # additional_links:
-#   - title: leetcode
-#     icon: fab fa-rectangle-terminal
-#     url: https://leetcode.com/usutk/
-#   - title: codechef
-#     url: https://www.codechef.com/users/utk_2003
-#   - title: codeforces
-#     url: https://codeforces.com/profile/Utk__03
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
@@ -51,110 +42,112 @@ codeforces_username: Utk__03
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
-about_profile_image: images/utk_new.png
+# about_title: About Me (Use this to override about section title)
+about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Utkarsh, B.Tech Computer Science Engineering Student. Have good coding skills in Golang,Node js and Java. A passionate professional with great interpersonal and communication skills.
+  Hi, I am a Software Engineering Student, currently studying at Punjab Technical University. 
+  I have good skills in React, Node and Java. A passionate professional with great interpersonal and communication skills.
   Key Skills: 
-  * Go
-  * Java
-  * NodeJs
-  * React
-  * C++
-  * Git 
-  * Data Structure and Algorithms
-  * Jira
-  * MongoDB
-  * MySQL
+    * Java
+    * NodeJs
+    * React
+    * C++
+    * SpringBoot
+    * Microservices
+    * Git 
+    * Data Structure and Algorithms
+    * MongoDB
+    * MySQL
+    * Strong Agile Skills
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Chat Room
-        link: https://github.com/UtkarshSaxenautk/Chat_Room
+        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        #               # other value (or no value) means no border will be displayed
+        title: List It
+        link: https://github.com/rbaliwal00/List-it
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+        #   Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Simple Chat room application built using NodeJS and ReactJS with socket io and mongoDB as database.
-          Having functionality of creating new rooms and joining rooms with user login and signup feature.
-      - layout: top-middle
-        title: Auth Service
-        link: https://github.com/UtkarshSaxenautk/GoAuthService
+          Advertisement posting website where people can buy and sell stuff built using NodeJs and ReactJs.
+          Having functionality of google maps and uploading multiple images with preview for an advertisement.
+        - layout: top-middle
+        title: Task Planner
+        link: https://github.com/rbaliwal00/fullstack-taskplanner
         description: | # this will include new lines to allow paragraphs
-          Authentication Microservice with exposed api to be used as pkg to use authentication service and using sendGrid Api to send mails.
-      - layout: top-middle
+          Task Management Application built with SpringBoot and React. Having funcationality Authentication, Authorization,
+          CRUD operations on taks.
+        - layout: top-middle
         title: Electric Bill Optimizer
-        link: https://github.com/UtkarshSaxenautk/Electric-Bill-Optimizer-HTM3.0
+        link: https://github.com/rbaliwal00/electricbilloptimizer
         description: | # this will include new lines to allow paragraphs
           A Mern based web app for optimizing your monthly bill according to expected bill and practical bill with twilio integration for notifications and hourly alerts.
-      - layout: top-middle
-        title: Hotel Booking Site
-        link: https://github.com/UtkarshSaxenautk/Booking-Site
+        - layout: top-middle
+        title: Ticketing
+        link: https://github.com/rbaliwal00/ticketing
         description: | # this will include new lines to allow paragraphs
-          A Modern Web app based on golang and its templates to book hotels and rooms according to location using PostgreSQL database
-                                      with mailing functionality.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+          Ticket booking microservice application where people can buy and sell tickets and is built using React, Node, Express,
+          Mongo, Redis, Docker, Kubernetes and Nats.
+        - layout: top-middle
+        title: Muzik
+        link: https://github.com/rbaliwal00/muzik
+        description: | # this will include new lines to allow paragraphs
+          A music player built with NextJs. Having functionality to play, next, forward, stop songs, playlist etc.
+          
+  - title: Experience
+    layout: list
     content:
-      - layout: left
-        title: myMandap
-        link: https://mymandap.in/
-        # link_text: boringcompany.com
-        sub_title: Software Engineer Intern
-        caption: August 2022 - Present
+      - layout: right
+        title: Smartle
+        sub_title: Full Stack Developer
+        caption: February 2022 - September 2022
+        link: https://www.dev.smartle.co/
+        quote: >
+          Fun, social, and safe learning experiences for ages 8 to14
         description: | # this will include new lines to allow paragraphs
-          * Writing Microservices in Golang for RabbitLoader(https://rabbitloader.com/)
-          * Api making in Golang
-          * Unit testing 
-          * Docker images and compose files
-      - layout: left
-        title: Wizwack
-        link: https://wizwack.in/
-        # link_text: boringcompany.com
-        sub_title: Full Stack Developer Intern
-        caption: May 2022 - August 2022
-        description: | # this will include new lines to allow paragraphs
-          * Writing features for StarHunt Game on : Wizwack(https://wizwack.in/)
-          * Bug fixing 
-          * Working on payment service(Cashfree Sdk)
-          * APi making and bulk testing
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+          * Building responsive web application using React, Node, Typescript and MySQL.
+          * Deploying and Maintaining website on AWS EC2 and S3.
+          * Integrating AWS(SES-email,Cognito,RDS, Cloudfront), Zoom video calling and Stripe payment gateway.
+          * Bringing Figma designs to live development.
+          * Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed.
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: I.K. Gujral Punjab Technical University
+        sub_title: Bachelor of Technology(Software Engineering)
         caption: 2020 - 2024
-        sub_title: Bachelor of Technology(Computer Science Engineering)
 
         description: | # this will include new lines to allow paragraphs
-          Average grade: 8.86
-      - layout: left
-        title: St. Xavier's Senior Secondary School
-        caption: 2018-2020
-        sub_title: 10+2(XII)
-
-        description: | # this will include new lines to allow paragraphs
-          Percentage : 95.65
+          Average grade: 8.55
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Gaming(Cricket)
-      - Exploring Animals Life
-      - Music Production
+      Alongside my interests in coding and software engineering some of my other interests and hobbies are:
+      - Badminton
+      - Exploring New Technologies
+      - Traveling
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
-  - jekyll-seo-tag
+ - jekyll-seo-tag
